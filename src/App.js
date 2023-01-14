@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import Particle from './components/Particle';
+import ImageSlider from './Component/Slider';
+import "./css/App.css";
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <> 
+     <Particle />
+     
+     <div className="container mt-5 carousel">
+      <h1 className="slider_title">Our Past Speakers</h1>
+      <ImageSlider />
+      
+
     </div>
+
+  
+      
+       </>
+        
   );
 }
 
