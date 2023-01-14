@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 function ImageSlider() {
     let settings = {
         dots: true,
@@ -20,7 +19,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -36,7 +35,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -52,7 +51,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -68,7 +67,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -84,7 +83,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -100,7 +99,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>
@@ -116,7 +115,7 @@ function ImageSlider() {
         <div className="card-image">
             <img src="images/6.png"></img>
             </div>
-            <ul class="social-icons">
+            <ul className="social-icons">
                 <li><a herf="#"><i className="fa fa-facebook"></i></a></li>
                 <li><a herf="#"><i className="fa fa-instagram"></i></a></li>
                 <li><a herf="#"><i className="fa fa-twitter"></i></a></li>

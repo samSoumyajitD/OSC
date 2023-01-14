@@ -1,6 +1,5 @@
-import Particle from './components/Particle';
+import Particle from './Component/Particle';
 import ImageSlider from './Component/Slider';
-import "./css/App.css";
 import './App.css';
 
 
